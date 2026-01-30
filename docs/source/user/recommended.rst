@@ -114,7 +114,7 @@ To download access controlled data, tokens need to be passed in the Authenticati
 
 .. code-block:: bash
 
-    wget --header= "Authorization: Bearer mytoken" "https://www.mywis2box.com/data/urn:wmo:md:my-centre-id:my-local-id/mydata.bufr4"
+    wget --header= "Authorization: Bearer S3CR3TT0K3N" "https://www.mywis2box.com/data/urn:wmo:md:my-centre-id:my-local-id/mydata.bufr4"
 
 To remove access control from a dataset, use the following command:
 
